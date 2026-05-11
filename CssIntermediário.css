@@ -1,0 +1,125 @@
+*{
+    font-family: "montserrat", sans-serif; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    margin-top: 47px;
+    margin-left: 42px;
+}
+.menu{
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    color: #989D9C;
+    cursor: pointer;
+    margin-right: 32px;
+}
+.button-menu{
+    background: #9534eb;
+    border: 1px solid #842dcc;
+    border-radius: 50px;
+    width: 130px;
+    height: 41px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 100%;
+    border: none;
+    color: #FFFFFF;
+}
+.img-principal{
+    display: inline-block;
+    Width: 500px;
+    Height:468px;
+    margin: 130px 0 0 120px;
+}
+
+section{
+    display: inline-block;
+    margin-left: 84px;
+    width: 493px;
+}
+   h1{
+    font-Weight: 900;
+    font-Size: 90px;
+    color: #515151;
+   }
+   
+   h2{
+    font-weight: 500;
+    font-size: 50px;
+    color:#515151;
+    margin-top: 20px;
+    margin-bottom: 30px;
+   }
+
+   p{
+    font-weight:400;
+    font-size:24px;
+    color: #848484;
+    text-align: justify;
+    margin-top: 20px;
+    margin-bottom: 30px;
+   }
+
+   .button-main{
+    Width:239px;
+    Height:64px;
+    border-radius: 50px;
+    border: none;
+    background-color: #ADFF00;
+    font-weight:700;
+    font-size: 28px;
+    margin-top: 15px;
+    margin-left: 46px;
+    cursor: pointer;
+   }
+
+   @media screen and (max-width: 900px){
+    .img-principal{
+        position: static;
+        width: 354px;
+        height: 317px;
+   }
+        h1{
+            font-weight: 900;
+            font-size: 50px;
+            color:#515151;
+            margin-top: 20px;
+            margin-bottom: 30px;
+            text-align: center;
+   }
+         h2{
+            font-weight:500;
+            font-size:30px;
+            color: #848484;
+            text-align: justify;
+            margin-top: 20px;
+            margin-bottom: 30px;
+            text-align: center;
+   }
+    .button-main{
+        display: block;
+        margin: 0 auto;
+        Width: 264px;
+        Height:64px;
+        border-radius: 50px;
+        border: none;
+        background-color: #ADFF00;
+        font-weight:700;
+        font-size: 28px;
+        cursor: pointer;
+        justify-content: center;
+    }
+         p{
+             display: none;
+    }
+    .menu{
+        display: none;
+    }
+    .button-menu{
+        display: none;
+    }
+}
